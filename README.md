@@ -79,11 +79,14 @@ You will also need to handle the loading and error states, of fetching the JSON 
 
 You may use whatever you like as long as the solution is built using [React](https://facebook.github.io/react/).
 
-
 ### What should I include with my source code?
 
 Please include a `README` with setup instructions, and any tests or other documentation you created as part of your solution.
 
+Also, add the following info to your `README`:
+
+- How did you decide which technologies to use as part of your solution?
+- Any improvements you could make to your submission
 
 ## Useful Links
 
