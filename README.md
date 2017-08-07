@@ -7,7 +7,7 @@
 
 To complete this challenge, you will need to write a simple [React](https://facebook.github.io/react/) web app, and provide us the source files to be built.
 
-The purpose of this challenge is to assess your skills and approach to composing a simple web app given a set of screens and an API feed.  We will also assess the generated HTML, CSS, and JS output.
+The purpose of this challenge is to assess your **skills and approach to composing a simple web app** given a set of screens and an API feed.  We will also assess the **generated HTML, CSS, and JS** output.
 
 This challenge is expected to take about 2-4 hours.
 
@@ -16,7 +16,7 @@ This challenge is expected to take about 2-4 hours.
 
 It's pretty simple. Using the provided screens as a reference, you'll need to build a set of React components to render the app.  You'll also need to request a JSON feed, filter that data, and use the relevant fields.
 
-Although this is a simple exercise, we'll be looking for simple, well-designed and tested code in the submission.
+Although this is a basic exercise, we'll be looking for **simple, well-designed and tested code** in the submission.
 
 
 ## Details
@@ -27,14 +27,14 @@ You will need to build the following 3 pages with React:
 * A "Series" page
 * A "Movies" page
 
-The built assets should be placed in a folder named `dist` with an entry point file of `index.html`.
+The deployable solution should be built in a folder named `dist` with an entry point file of `index.html`.
 
 Please create components for each part of the page (eg. header, content, footer, etc).
 Assets are provided in the `assets` folder.
 
-The pages should be usable on mobile and tablet devices.
+The pages should also be usable on mobile and tablet devices.
 
-You can assume that you do not have to support browsers without features such as `fetch` or `flexbox`.
+You can assume that you do not have to support legacy browsers without features such as `fetch` or `flexbox`.
 
 
 ### "Home" Page
@@ -87,6 +87,7 @@ Also, add the following info to your `README`:
 
 - How did you decide which technologies to use as part of your solution?
 - Any improvements you could make to your submission
+
 
 ## Useful Links
 
