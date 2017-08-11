@@ -27,7 +27,7 @@ You will need to build the following 3 pages with React:
 * A "Series" page
 * A "Movies" page
 
-The deployable solution should be built in a folder named `dist` with an entry point file of `index.html`.
+The deployable solution should be built in a folder named **`dist`** with an entry point file of **`index.html`**.
 
 Please create components for each part of the page (eg. header, content, footer, etc).
 Assets are provided in the `assets` folder.
@@ -57,9 +57,11 @@ For each page you will need to fetch the JSON feed [feed/sample.json](./feed/sam
 * Sorted by the `title` attribute value in ascending alphanumeric order
 
 For the "Series" page filter on:
+
 * Where the entry has a `programType` attribute value of `series`
 
 For the "Movies" page filter on:
+
 * Where the entry has a `programType` attribute value of `movie`
 
 The attributes you should use to display the entries are:
@@ -85,8 +87,9 @@ Please include a `README` with setup instructions, and any tests or other docume
 
 Also, add the following info to your `README`:
 
-- How did you decide which technologies to use as part of your solution?
-- Any improvements you could make to your submission
+* How did you decide which technologies to use as part of your solution?
+* Are there any improvements you could make to your submission?
+* What would you do differently if you were allocated more time?
 
 
 ## Useful Links
