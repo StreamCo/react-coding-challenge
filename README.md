@@ -50,7 +50,7 @@ You will need to display 2 tiles, which link to the "Series" page and the "Movie
 
 Refer to the [screens/2-series.jpg](./screens/2-series.jpg) and [screens/3-movies.jpg](./screens/3-movies.jpg) screens.
 
-For each page you will need to fetch the JSON feed [feed/sample.json](./feed/sample.json), then:
+For each page you will need to fetch this JSON feed [feed/sample.json](https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json), then:
 
 * Display the first 21 `entries`
 * Where the entry has a `releaseYear` attribute value >= `2010`
