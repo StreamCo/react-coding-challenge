@@ -18,6 +18,13 @@ It's pretty simple. Using the provided screens as a reference, you'll need to bu
 
 Although this is a basic exercise, we'll be looking for **simple, well-designed and tested code** in the submission.
 
+Please include a `README` with setup instructions, and any tests or other documentation you created as part of your solution.
+
+Also, add the following info to your `README`:
+
+* How did you decide which technologies to use as part of your solution?
+* Are there any improvements you could make to your submission?
+* What would you do differently if you were allocated more time?
 
 ## Details
 
@@ -80,16 +87,6 @@ You will also need to handle the loading and error states, of fetching the JSON 
 ### What language, framework, build tool... should I use?
 
 You may use whatever you like as long as the solution is built using [React](https://facebook.github.io/react/).
-
-### What should I include with my source code?
-
-Please include a `README` with setup instructions, and any tests or other documentation you created as part of your solution.
-
-Also, add the following info to your `README`:
-
-* How did you decide which technologies to use as part of your solution?
-* Are there any improvements you could make to your submission?
-* What would you do differently if you were allocated more time?
 
 
 ## Useful Links
