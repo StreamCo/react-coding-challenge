@@ -72,7 +72,7 @@ The attributes you should use to display the entries are:
 - `title`
 - `images` → `Poster Art` → `url`
 
-You will also need to handle the loading and error states, of fetching the JSON feed:
+You will also need to handle the loading and error states of fetching the JSON feed:
 
 - "Loading" state [screens/1.1-loading.jpg](./screens/1.1-loading.jpg)
 - "Error" state [screens/1.2-error.jpg](./screens/1.2-error.jpg)
@@ -84,6 +84,8 @@ You will also need to handle the loading and error states, of fetching the JSON 
 You may use whatever you like as long as the solution is built using [React](https://facebook.github.io/react/) or an equivalent library.
 
 We prefer it if you did not use any third party CSS frameworks.
+
+We also prefer the use of minimal dependencies.
 
 ## Useful Links
 
