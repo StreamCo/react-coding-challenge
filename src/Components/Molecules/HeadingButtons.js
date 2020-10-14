@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../Atoms/Button';
 
 export default function HeadingButtons() {
-  const login = () => {console.log('redirect to login page'); };
+  const login = () => { console.log('redirect to login page'); };
   const startFreeTrial = () => { console.log('logics for redirect to free trial page'); };
 
   return (
@@ -11,14 +11,14 @@ export default function HeadingButtons() {
         id="loginButton"
         type="button"
         classname="primary-button"
-        onClick={login}
+        buttonEvent={login}
         text={"Log in"}
       />
       <Button
         id="freeTrailButton"
         type="button"
         classname="secondary-button"
-        onClick={startFreeTrial}
+        buttonEvent={startFreeTrial}
         text="Start your free trial"
       />
     </div>

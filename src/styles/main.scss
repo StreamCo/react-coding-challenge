@@ -69,16 +69,11 @@ footer {
   grid-gap: 1em;
 }
 
-.card-flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.card-flex-row a {
+.card-grid-layout a {
   padding: 1rem;
 }
 
-.card-flex-row b {
+.card-grid-layout b {
   font-size: 2rem;
   text-transform: uppercase;
   color: $primary-light-color;
@@ -250,4 +245,19 @@ footer {
 .secondary-button {
   color: $primary-light-color;
   background-color: $secondary-theme-color;
+}
+
+// For responsive display
+@media only screen and (max-width: 500px) { // for morbile phone
+  .flex-space-between {
+    flex-direction: column;  
+  }
+
+  .padding-left-10-percent {
+    padding-left: 0;
+  }
+  
+  .padding-right-10-percent {
+    padding-right: 0;
+  }
 }
