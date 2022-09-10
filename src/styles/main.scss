@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$primary-theme-color: #007aff;
+$secondary-theme-color: #414141;
+$primary-light-color: #fff;
+$primary-dark-color: #1e1e1e;
+$primary-ingradient-color: #0092ff;
+$secondary-ingradient-color: #0183ff;
+
+* {
+  font-family: 'Raleway', sans-serif;
+  color: $secondary-theme-color;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.text-shadow {
+  text-shadow: 1px 0px $primary-dark-color;
+}
+
+.bg-gradient {
+  background-image: linear-gradient($primary-ingradient-color, $secondary-ingradient-color, $primary-theme-color);
+}
+
+.box-shadow {
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+// General width & height
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+
+// general flex
+
+.card-grid-layout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-gap: 1em;
+}
+
+.card-grid-layout a {
+  padding: 1rem;
+}
+
+.card-grid-layout b {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: $primary-light-color;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+// General colors
+
+.primary-theme-color {
+  color: $primary-theme-color;
+}
+
+.secondary-theme-color {
+  color: $secondary-theme-color;
+}
+
+.primary-light-color {
+  color: $primary-light-color;
+}
+
+.primary-dark-color {
+  color: $primary-dark-color;
+}
+
+.primary-dark-bg-color {
+  background-color: $primary-dark-color;
+}
+
+.secondary-bg-color {
+  background-color: $secondary-theme-color;
+}
+
+.primary-theme-bg-color {
+  background-color: $primary-theme-color;
+}
+
+
+// General paddings
+
+.padding-left-10-percent {
+  padding-left: 6rem;;
+}
+
+.padding-right-10-percent {
+  padding-right: 6rem;;
+}
+
+.padding-top-bottom-point-5-rem {
+  padding: .5rem 0;
+}
+
+.padding-top-bottom-1-rem {
+  padding: 1rem 0;
+}
+
+.padding-top-bottom-3-rem {
+  padding: 3rem 0;
+}
+
+.padding-left-lg {
+  padding-left: 1rem;
+}
+
+.padding-right-lg {
+  padding-right: 1rem;
+}
+
+.padding-left-md {
+  padding-left: .5rem;
+}
+
+.padding-right-md {
+  padding-right: .5rem;
+}
+
+.padding-left-sm {
+  padding-left: .25rem;
+}
+
+.padding-right-sm {
+  padding-right: .25rem;
+}
+
+.padding-top-lg {
+  padding-top: 1rem;
+}
+
+.padding-bottom-lg {
+  padding-bottom: 1rem;
+}
+
+.padding-top-md {
+  padding-top: .5rem;
+}
+
+.padding-bottom-md {
+  padding-bottom: .5rem;
+}
+
+.padding-top-sm {
+  padding-top: .25rem;
+}
+
+.padding-bottom-sm {
+  padding-bottom: .25rem;
+}
+
+
+// General font sizes
+
+.font-heading {
+  font-size: 2rem;
+}
+
+.font-subheading {
+  font-size: 1.6rem
+}
+
+.font-lg {
+  font-size: 1rem;
+}
+
+.font-md {
+  font-size: .8rem;
+}
+
+// General svg and icon images
+
+.social-icons svg {
+  width: 2rem;
+  height: 2rem;
+  padding: 0 .6rem;
+}
+
+.social-icons svg:first-child {
+  padding-left: 0;
+}
+
+.company-icons svg {
+  padding: 0 .8rem;
+}
+
+.company-icons svg:nth-of-type(3) {
+  padding-left: .8rem;
+  padding-right: 0;
+}
+
+
+// general buttons
+
+.primary-button {
+  color: $primary-light-color;
+  background: transparent;
+  margin-right: 1rem;
+}
+
+.secondary-button {
+  color: $primary-light-color;
+  background-color: $secondary-theme-color;
+}
+
+// For responsive display
+@media only screen and (max-width: 500px) { // for morbile phone
+  .flex-space-between {
+    flex-direction: column;  
+  }
+
+  .padding-left-10-percent {
+    padding-left: 0;
+  }
+  
+  .padding-right-10-percent {
+    padding-right: 0;
+  }
+}
